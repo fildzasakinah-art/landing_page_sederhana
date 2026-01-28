@@ -1,0 +1,103 @@
+/*reset*/
+* {
+    margin: 0;              /* Menghilangkan jarak luar bawaan elemen */
+    padding: 0;             /* Menghilangkan jarak dalam bawaan elemen */
+    box-sizing: border-box; /* Ukuran elemen dihitung termasuk padding & border */
+}
+
+/*global*/
+body {
+    font-family: Arial, sans-serif; /* Mengatur jenis huruf utama */
+    color: #333;                    /* Warna teks default */
+    line-height: 1.6;               /* Jarak antar baris teks */
+}
+
+.container {
+    width: 90%;         /* Lebar fleksibel mengikuti layar */
+    max-width: 900px;   /* Lebar maksimal agar tidak terlalu lebar */
+    margin: auto;       /* Membuat container berada di tengah */
+}
+
+a {
+    text-decoration: none; /* Menghilangkan garis bawah link */
+    color: inherit;        /* Warna mengikuti elemen induk */
+}
+
+/*header*/
+.header {
+    background: #1e3a8a; /* Warna latar header */
+    color: white;        /* Warna teks header */
+    padding: 15px 0;     /* Ruang dalam atas dan bawah */
+}
+
+.logo {
+    font-size: 22px; /* Ukuran teks logo */
+}
+
+.nav a {
+    margin-right: 15px; /* Jarak antar menu navigasi */
+}
+
+/*hero section*/
+.hero {
+    background: #e5e7eb;   /* Warna latar hero */
+    text-align: center;    /* Teks rata tengah */
+    padding: 60px 0;       /* Ruang dalam agar hero terlihat luas */
+}
+
+.hero h2 {
+    margin-bottom: 15px; /* Jarak judul dengan elemen di bawahnya */
+}
+
+/*button*/
+.btn {
+    display: inline-block; /* Bisa diberi ukuran & margin */
+    margin-top: 20px;      /* Jarak dari elemen di atasnya */
+    padding: 10px 20px;    /* Ruang dalam tombol */
+    background: #1e3a8a;   /* Warna tombol */
+    color: white;          /* Warna teks tombol */
+    border-radius: 4px;    /* Membuat sudut tombol membulat */
+}
+
+/*section*/
+.section {
+    padding: 50px 0; /* Ruang atas dan bawah setiap section */
+}
+
+.section h2 {
+    margin-bottom: 15px; /* Jarak judul dengan isi section */
+}
+
+.light {
+    background: #f9fafb; /* Warna latar section terang */
+}
+
+/*list*/
+.list {
+    margin-left: 20px; /* jarak di kanan → elemen terdorong ke kiri  */
+}
+
+.list li {
+    margin-bottom: 8px; /* Jarak antar item list */
+}
+
+/*Call To Action (CTA)
+Mengarahkan tindakan pengguna
+Misalnya:
+Klik tombol
+Daftar akun
+Hubungi admin*/
+.cta {
+    background: #1e3a8a; /* Warna latar CTA */
+    color: white;        /* Warna teks CTA */
+    text-align: center;  /* Teks rata tengah */
+    padding: 60px 0;     /* Ruang dalam agar CTA menonjol */
+}
+
+/*footer*/
+.footer {
+    background: #111827; /* Warna latar footer */
+    color: white;        /* Warna teks footer */
+    text-align: center;  /* Teks rata tengah */
+    padding: 15px 0;     /* Ruang dalam footer */
+}
